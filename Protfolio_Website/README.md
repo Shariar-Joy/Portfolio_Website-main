@@ -25,7 +25,7 @@ No package installation or build step is required. The site can also be opened d
 
 Deploy this directory as a static site. Use no build command, and set the publish directory to `.` when this folder is the deployment root. If deploying from the parent repository, use `Protfolio_Website` as the publish directory.
 
-The nested `Portfolio-Website-Template-main` folder and old vendor assets are retained as legacy files. The redesigned root page only loads `css/style.css`, `js/main.js`, its images, and the CV. Google Fonts is optional; system fonts are used if it is unavailable.
+The site only loads `css/style.css`, `js/main.js`, the two images in `images/`, and the files in `assets/`. Unused template files and vendor libraries have been removed. Google Fonts is optional; system fonts are used if it is unavailable.
 
 ## Accessibility and motion
 
